@@ -290,7 +290,7 @@
     },
     
     "variables": {
-        "dscUri": "https://github.com/microsoft/AzStackHCISandbox/blob/main/AKS-DSC/ashcihost.zip?raw=true",
+        "dscUri": "https://github.com/tksh164/AzStackHCISandbox/blob/main/AKS-DSC/ashcihost.zip?raw=true",
         "artifactsLocation": "https://github.com/mgodfre3/AzSHCI-AZNested/blob/main/",
         "nsgId": "[resourceId(resourceGroup().name, 'Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroupName'))]",
         "vnetId": "[resourceId(resourceGroup().name,'Microsoft.Network/virtualNetworks', parameters('virtualNetworkName'))]",
